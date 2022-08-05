@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: calc(100vh - 0.1px);
+  font-family: "Kumbh Sans", sans-serif;
+  background: hsl(185deg, 75%, 39%);
+  color: hsl(229deg, 23%, 23%);
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  background-position: bottom 50vh right 50vw, top 50vh left 50vw;
+}
+
+.card {
+  min-width: 300px;
+  border: none;
+  border-radius: 15px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.card-header {
+  position: relative;
+  background-image: url("../images/bg-pattern-card.svg");
+  padding: 4rem 0;
+  border-start-start-radius: 15px !important;
+  border-start-end-radius: 15px !important;
+}
+.card img {
+  position: absolute;
+  bottom: -43%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 5px solid white;
+}
+.card-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 3.5rem;
+  margin-bottom: 0;
+}
+.card-title span {
+  font-weight: normal;
+  color: hsl(227deg, 10%, 46%);
+  margin-left: 5px;
+}
+.card p.small {
+  color: hsl(227deg, 10%, 46%);
+}
+.card-footer {
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.2rem;
+}
+.card-footer .stats .number {
+  font-size: 18px;
+  font-weight: 700;
+}
+.card-footer .stats .heading {
+  color: hsl(0deg, 0%, 59%);
+  font-size: 11px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  font-size: 11px;
+  text-align: center;
+}
+footer a {
+  color: hsl(0deg, 0%, 0%);
+  text-decoration: underline;
+}/*# sourceMappingURL=main.css.map */
